@@ -14,7 +14,7 @@ input.onButtonPressed(Button.B, function () {
     }
     servos.P0.setAngle(Posicion)
 })
-control.onEvent(EventBusSource.MICROBIT_ID_BUTTON_A, EventBusValue.MICROBIT_EVT_ANY, function () {
+control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EVT_ANY, function () {
     if (control.eventValue() == EventBusValue.MES_DPAD_BUTTON_1_DOWN) {
         basic.showArrow(ArrowNames.North)
     } else if (control.eventValue() == EventBusValue.MES_DPAD_BUTTON_2_DOWN) {

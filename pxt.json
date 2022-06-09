@@ -1,11 +1,11 @@
 {
-    "name": "Serbomotores 10 grados",
+    "name": "Blutooth con serbo",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
-        "servo": "*"
+        "servo": "*",
+        "bluetooth": "*"
     },
     "files": [
         "main.blocks",
